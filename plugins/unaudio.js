@@ -22,7 +22,7 @@ const UA_DESC = "Converts sound recording to an audio File."
 const UA_NEEDREPLY = "*Must Reply to a sound recording*"
 const UA_PROC = "```Converting Sound recording To an Audio File```"
 
-    Asena.addCommand({pattern: 'unaudio', fromMe: true, desc: UA_DESC}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'unaudio', fromMe: false, desc: UA_DESC}, (async (message, match) => {    
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -45,5 +45,5 @@ const UA_PROC = "```Converting Sound recording To an Audio File```"
             .on('end', async () => {
                 await message.client.sendMessage(message.jid, fs.readFileSync('output.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
             });
-        return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
+        return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: false})
     }));
