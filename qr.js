@@ -15,6 +15,7 @@ async function whatsAsena () {
     const conn = new WAConnection();
     const Session = new StringSession();  
     conn.logger.level = 'warn';
+    conn.version = [2, 2119, 6]
     conn.regenerateQRIntervalMs = 40000;
     
     conn.on('connecting', async () => {
