@@ -21,6 +21,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 const axios = require('axios');
 const { requestLyricsFor, requestAuthorFor, requestTitleFor, requestIconFor } = require("solenolyrics");
 const solenolyrics= require("solenolyrics"); 
+const LY_DESC = "Lyrics"
 //============================== CURRENCY =============================================
 const { exchangeRates } = require('exchange-rates-api');
 const ExchangeRatesError = require('exchange-rates-api/src/exchange-rates-error.js')
