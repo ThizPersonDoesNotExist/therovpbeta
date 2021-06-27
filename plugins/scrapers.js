@@ -21,7 +21,6 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 const axios = require('axios');
 const { requestLyricsFor, requestAuthorFor, requestTitleFor, requestIconFor } = require("solenolyrics");
 const solenolyrics= require("solenolyrics"); 
-const LY_DESC = "Lyrics"
 //============================== CURRENCY =============================================
 const { exchangeRates } = require('exchange-rates-api');
 const ExchangeRatesError = require('exchange-rates-api/src/exchange-rates-error.js')
@@ -604,7 +603,7 @@ if (config.WORKTYPE == 'private') {
       },
     )
 
-    Asena.addCommand({pattern: 'lyric ?(.*)', fromMe: true, desc: Slang.LY_DESC }, (async (message, match) => { 
+    Asena.addCommand({pattern: 'lyric ?(.*)', fromMe: true }, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid, Slang.NEED, MessageType.text);
 
@@ -1071,7 +1070,7 @@ else if (config.WORKTYPE == 'public') {
       },
     )
 
-    Asena.addCommand({pattern: 'lyric ?(.*)', fromMe: false, desc: Slang.LY_DESC }, (async (message, match) => {
+    Asena.addCommand({pattern: 'lyric ?(.*)', fromMe: false }, (async (message, match) => {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid, Slang.NEED, MessageType.text);
 
