@@ -118,11 +118,11 @@ if (Config.WORKTYPE == 'private') {
         });
         await webp2mp4File(savedFilename).then(async (rest) => {
             await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
-                const saving = data.pipe(fs.createWriteStream('/root/rovpbot/stweb.mp4'))
+                const saving = data.pipe(fs.createWriteStream('/root/therovpbeta/stweb.mp4'))
                 saving.on("finish", async () => {
-                    await message.client.sendMessage(mid, fs.readFileSync('/root/rovpbot/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'Made by: Ask Your Mom', quoted: message.data })
+                    await message.client.sendMessage(mid, fs.readFileSync('/root/therovpbeta/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'Made by: Ask Your Mom', quoted: message.data })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
-                    if (fs.existsSync('/root/rovpbot/stweb.mp4')) fs.unlinkSync('/root/rovpbot/stweb.mp4')
+                    if (fs.existsSync('/root/therovpbeta/stweb.mp4')) fs.unlinkSync('/root/therovpbeta/stweb.mp4')
                 })
             })
         })
@@ -183,11 +183,11 @@ else if (Config.WORKTYPE == 'public') {
         });
         await webp2mp4File(savedFilename).then(async (rest) => {
             await Axios({ method: "GET", url: rest.result, responseType: "stream"}).then(({ data }) => {
-                const saving = data.pipe(fs.createWriteStream('/root/rovpbot/stweb.mp4'))
+                const saving = data.pipe(fs.createWriteStream('/root/therovpbeta/stweb.mp4'))
                 saving.on("finish", async () => {
-                    await message.client.sendMessage(mid, fs.readFileSync('/root/rovpbot/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'Made by:Ask Your Mom', quoted: message.data })
+                    await message.client.sendMessage(mid, fs.readFileSync('/root/therovpbeta/stweb.mp4'), MessageType.video, { mimetype: Mimetype.mp4, caption: 'Made by:Ask Your Mom', quoted: message.data })
                     if (fs.existsSync(savedFilename)) fs.unlinkSync(savedFilename)
-                    if (fs.existsSync('/root/rovpbot/stweb.mp4')) fs.unlinkSync('/root/rovpbot/stweb.mp4')
+                    if (fs.existsSync('/root/therovpbeta/stweb.mp4')) fs.unlinkSync('/root/therovpbeta/stweb.mp4')
                 })
             })
         })
