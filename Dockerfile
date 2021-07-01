@@ -1,8 +1,8 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/ThizPersonDoesNotExist/rovpbot /root/rovpbot
+RUN git clone https://github.com/ThizPersonDoesNotExist/therovpbeta /root/therovpbeta
 
-WORKDIR /root/rovpbot/
+WORKDIR /root/therovpbeta/
 
 ENV TZ=Europe/Istanbul
 
