@@ -137,32 +137,32 @@ Asena.addCommand({pattern: 'txttoimg$', fromMe: wk, desc: desc_msg}, (async (mes
         command_cmd = '🐼 Command : '
         desc_cmd = '🍀 Description : '
     }
-    const msg = command_cmd + '```.devil``` \n' + t1 + '_\n' + usage_cmd + '*.devil JulieMwol*\n\n' +
-        command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '*.bear JulieMwol*\n\n' +
+    const msg = command_cmd + '```.devil``` \n' + t1 + '_\n' + usage_cmd + '*.devil DarkShadow*\n\n' +
+        command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '*.bear DarkShadow*\n\n' +
         command_cmd + '```.wolf``` \n' + desc_cmd + t10 + '_\n' + usage_cmd + '*.wolf Julie;Mwol*\n\n' +
-        command_cmd + '```.neon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '*.neon JulieMwol*\n\n' +
-        command_cmd + '```.2neon``` \n' + desc_cmd + t4 + '_\n' + usage_cmd + '*.2neon JulieMwol*\n\n' +
-        command_cmd + '```.3neon``` \n' + desc_cmd + t18 + '_\n' + usage_cmd + '*.3neon JulieMwol*\n\n' +
-        command_cmd + '```.4neon``` \n' + desc_cmd + t27 + '_\n' + usage_cmd + '*.4neon JulieMwol*\n\n' +
-        command_cmd + '```.light``` \n' + desc_cmd + t5 + '_\n' + usage_cmd + '*.light JulieMwol*\n\n' +
-        command_cmd + '```.joker``` \n' + desc_cmd + t6 + '_\n' + usage_cmd + '*.joker JulieMwol*\n\n' +
+        command_cmd + '```.neon```\n' + desc_cmd + t3 + '_\n' + usage_cmd + '*.neon DarkShadow*\n\n' +
+        command_cmd + '```.2neon``` \n' + desc_cmd + t4 + '_\n' + usage_cmd + '*.2neon DarkShadow*\n\n' +
+        command_cmd + '```.3neon``` \n' + desc_cmd + t18 + '_\n' + usage_cmd + '*.3neon DarkShadow*\n\n' +
+        command_cmd + '```.4neon``` \n' + desc_cmd + t27 + '_\n' + usage_cmd + '*.4neon DarkShadow*\n\n' +
+        command_cmd + '```.light``` \n' + desc_cmd + t5 + '_\n' + usage_cmd + '*.light DarkShadow*\n\n' +
+        command_cmd + '```.joker``` \n' + desc_cmd + t6 + '_\n' + usage_cmd + '*.joker DarkShadow*\n\n' +
         command_cmd + '```.ninja``` \n' + desc_cmd + t7 + '_\n' + usage_cmd + '*.ninja Julie;Mwol*\n\n' +
-        command_cmd + '```.glitter``` \n' + desc_cmd + t8 + '_\n' + usage_cmd + '*.glitter JulieMwol*\n\n' +
-        command_cmd + '```.bokeh``` \n' + desc_cmd + t9 + '_\n' + usage_cmd + '*.bokeh JulieMwol*\n\n' +
+        command_cmd + '```.glitter``` \n' + desc_cmd + t8 + '_\n' + usage_cmd + '*.glitter DarkShadow*\n\n' +
+        command_cmd + '```.bokeh``` \n' + desc_cmd + t9 + '_\n' + usage_cmd + '*.bokeh DarkShadow*\n\n' +
         command_cmd + '```.marvel``` \n' + desc_cmd + t11 + '_\n' + usage_cmd + '*.marvel Julie;Mwol*\n\n' +
         command_cmd + '```.2marvel``` \n' + desc_cmd + t12 + '_\n' + usage_cmd + '*.2marvel Julie;Mwol*\n\n' +
         command_cmd + '```.avengers``` \n' + desc_cmd + t13 + '_\n' + usage_cmd + '*.avengers Julie;Mwol*\n\n' +
-        command_cmd + '```.graf``` \n' + desc_cmd + t15 + '_\n' + usage_cmd + '*.graf pinky;JulieMwol*\n\n' +
-        command_cmd + '```.2graf``` \n' + desc_cmd + t16 + '_\n' + usage_cmd + '*.2graf pinky;JulieMwol*\n\n' +       
-        command_cmd + '```.lion``` \n' + desc_cmd + t17 + '_\n' + usage_cmd + '*.lion pinky;JulieMwol*\n\n' +
-        command_cmd + '```.ice``` \n' + desc_cmd + t19 + '_\n' + usage_cmd + '*.ice JulieMwol*\n\n' +
+        command_cmd + '```.graf``` \n' + desc_cmd + t15 + '_\n' + usage_cmd + '*.graf pinky;DarkShadow*\n\n' +
+        command_cmd + '```.2graf``` \n' + desc_cmd + t16 + '_\n' + usage_cmd + '*.2graf pinky;DarkShadow*\n\n' +       
+        command_cmd + '```.lion``` \n' + desc_cmd + t17 + '_\n' + usage_cmd + '*.lion pinky;DarkShadow*\n\n' +
+        command_cmd + '```.ice``` \n' + desc_cmd + t19 + '_\n' + usage_cmd + '*.ice DarkShadow*\n\n' +
         command_cmd + '```.space``` \n' + desc_cmd + t20 + '_\n' + usage_cmd + '*.space Julie;Mwol*\n\n' +
-        command_cmd + '```.smoke``` \n' + desc_cmd + t21 + '_\n' + usage_cmd + '*.smoke JulieMwol*\n\n' + // Thanks for @Unique_hunter for base.
-        command_cmd + '```.glow``` \n' + desc_cmd + t23 + '_\n' + usage_cmd + '*.glow JulieMwol*\n\n' +
-        command_cmd + '```.fire``` \n' + desc_cmd + t25 + '_\n' + usage_cmd + '*.fire JulieMwol*\n\n' +
-        command_cmd + '```.harry``` \n' + desc_cmd + t26 + '_\n' + usage_cmd + '*.harry JulieMwol*\n\n' +
-        command_cmd + '```.cup``` \n' + desc_cmd + t29 + '_\n' + usage_cmd + '*.cup JulieMwol*\n\n' +
-        command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '*.cemetery JulieMwol*\n\n' +
+        command_cmd + '```.smoke``` \n' + desc_cmd + t21 + '_\n' + usage_cmd + '*.smoke DarkShadow*\n\n' + // Thanks for @Unique_hunter for base.
+        command_cmd + '```.glow``` \n' + desc_cmd + t23 + '_\n' + usage_cmd + '*.glow DarkShadow*\n\n' +
+        command_cmd + '```.fire``` \n' + desc_cmd + t25 + '_\n' + usage_cmd + '*.fire DarkShadow*\n\n' +
+        command_cmd + '```.harry``` \n' + desc_cmd + t26 + '_\n' + usage_cmd + '*.harry DarkShadow*\n\n' +
+        command_cmd + '```.cup``` \n' + desc_cmd + t29 + '_\n' + usage_cmd + '*.cup DarkShadow*\n\n' +
+        command_cmd + '```.cemetery``` \n' + desc_cmd + t28 + '_\n' + usage_cmd + '*.cemetery DarkShadow*\n\n' +
         command_cmd + '```.glitch``` \n' + desc_cmd + t14 + '_\n' + usage_cmd + '*.glitch Julie;Mwol*\n\n'
     await message.client.sendMessage(message.jid,msg, MessageType.text, { quoted: message.data })
 }));
@@ -177,8 +177,8 @@ Asena.addCommand({pattern: 'devil ?(.*)', fromMe: false, dontAddCommandList: tru
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/devil.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/devil.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/devil.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/devil.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -196,8 +196,8 @@ Asena.addCommand({pattern: 'bear ?(.*)', fromMe: wk, dontAddCommandList: true}, 
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/bear.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/bear.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/bear.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/bear.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -224,8 +224,8 @@ Asena.addCommand({pattern: 'wolf ?(.*)', fromMe: wk, dontAddCommandList: true}, 
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/wolf.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/wolf.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/wolf.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/wolf.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -243,8 +243,8 @@ Asena.addCommand({pattern: 'neon ?(.*)', fromMe: wk, dontAddCommandList: true}, 
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/neon.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/neon.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/neon.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/neon.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -262,8 +262,8 @@ Asena.addCommand({pattern: '2neon ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/neon2.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/neon2.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/neon2.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/neon2.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -281,8 +281,8 @@ Asena.addCommand({pattern: 'light ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/li.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/li.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/li.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/li.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -300,8 +300,8 @@ Asena.addCommand({pattern: 'joker ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/joker.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/joker.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/joker.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/joker.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -328,8 +328,8 @@ Asena.addCommand({pattern: 'ninja ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/ninja.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/ninja.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/ninja.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/ninja.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -347,8 +347,8 @@ Asena.addCommand({pattern: 'glitter ?(.*)', fromMe: wk, dontAddCommandList: true
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/tt.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/tt.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/tt.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/tt.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -366,8 +366,8 @@ Asena.addCommand({pattern: 'bokeh ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/bkh.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/bkh.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/bkh.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/bkh.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -394,8 +394,8 @@ Asena.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true}
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/marvel.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/marvel.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/marvel.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/marvel.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -422,8 +422,8 @@ Asena.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: true
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/mar2.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/mar2.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/mar2.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/mar2.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -450,8 +450,8 @@ Asena.addCommand({pattern: 'avengers ?(.*)', fromMe: wk, dontAddCommandList: tru
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/aven.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/aven.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/aven.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/aven.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -478,8 +478,8 @@ Asena.addCommand({pattern: 'glitch ?(.*)', fromMe: wk, dontAddCommandList: true}
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/tt2.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/tt2.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/tt2.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/tt2.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -506,8 +506,8 @@ Asena.addCommand({pattern: 'graf ?(.*)', fromMe: wk, dontAddCommandList: true}, 
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/ttgra.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/ttgra.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/ttgra.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/ttgra.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -534,8 +534,8 @@ Asena.addCommand({pattern: '2graf ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/t2gra.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/t2gra.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/t2gra.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/t2gra.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -562,8 +562,8 @@ Asena.addCommand({pattern: 'lion ?(.*)', fromMe: wk, dontAddCommandList: true}, 
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/lion.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/lion.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/lion.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/lion.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -581,8 +581,8 @@ Asena.addCommand({pattern: '3neon ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/neon3.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/neon3.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/neon3.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/neon3.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -600,8 +600,8 @@ Asena.addCommand({pattern: 'ice ?(.*)', fromMe: wk, dontAddCommandList: true}, (
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/ice.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/ice.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/ice.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/ice.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -628,8 +628,8 @@ Asena.addCommand({pattern: 'space ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/space.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/space.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/space.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/space.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -647,8 +647,8 @@ Asena.addCommand({pattern: 'smoke ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/smoke.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/smoke.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/smoke.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/smoke.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -662,8 +662,8 @@ Asena.addCommand({pattern: 'glow ?(.*)', fromMe: wk, dontAddCommandList: true}, 
         });
     };
     var uri = encodeURI(match[1])
-    await download(`https://api.xteam.xyz/photooxy/neonlight?text=${uri}&APIKEY=da5fb2b73ae3e451`, '/root/rovpbot/glowttp.jpg', async() => {                          
-        await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/glowttp.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+    await download(`https://api.xteam.xyz/photooxy/neonlight?text=${uri}&APIKEY=da5fb2b73ae3e451`, '/root/therovpbeta/glowttp.jpg', async() => {                          
+        await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/glowttp.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
     })
 }));
 Asena.addCommand({pattern: 'fire ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
@@ -677,8 +677,8 @@ Asena.addCommand({pattern: 'fire ?(.*)', fromMe: wk, dontAddCommandList: true}, 
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/tfire.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/tfire.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/tfire.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/tfire.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -696,8 +696,8 @@ Asena.addCommand({pattern: 'harry ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/hp.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/hp.jpg'), MessageType.image, { caption: 'PINKY' })
+              await download(`${data}`, '/root/therovpbeta/hp.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/hp.jpg'), MessageType.image, { caption: 'PINKY' })
               })
           } catch(err) { 
               console.log(err)
@@ -715,8 +715,8 @@ Asena.addCommand({pattern: '4neon ?(.*)', fromMe: wk, dontAddCommandList: true},
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/t4n.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/t4n.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/t4n.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/t4n.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -734,8 +734,8 @@ Asena.addCommand({pattern: 'cemetery ?(.*)', fromMe: wk, dontAddCommandList: tru
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/cmth.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/cmth.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/cmth.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/cmth.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
@@ -753,8 +753,8 @@ Asena.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (
                   });
               };
 
-              await download(`${data}`, '/root/rovpbot/cup.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/rovpbot/cup.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
+              await download(`${data}`, '/root/therovpbeta/cup.jpg', async() => {                          
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/therovpbeta/cup.jpg'), MessageType.image, { caption: '```Made by: Ask Your Mom```' })
               })
           } catch(err) { 
               console.log(err)
