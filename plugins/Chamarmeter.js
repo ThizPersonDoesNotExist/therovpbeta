@@ -519,7 +519,7 @@ else {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/rovpbot/media/gif/chamar.mp4"),
+                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/chamar.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*Chamar Meter Calculated!*🔵\n*Result:* ${r_text[i]}` }
             )
